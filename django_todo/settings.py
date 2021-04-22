@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-!a3zo$aa0*ioat7tg4d@h7d6esy2v$3ca^$)n!ftr7h)2s3b*c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['jfm-ci-fullstack-hello-django.herokuapp.com']
 
 
 # Application definition
@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'django_todo.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 #DATABASES = {
- #   'default': {
-  #      'ENGINE': 'django.db.backends.sqlite3',
-   #     'NAME': BASE_DIR / 'db.sqlite3',
-    #}
+#   'default': {
+#      'ENGINE': 'django.db.backends.sqlite3',
+#     'NAME': BASE_DIR / 'db.sqlite3',
+#}
 #}
 
 DATABASES = {
